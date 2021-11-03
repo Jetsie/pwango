@@ -382,26 +382,24 @@ PWA_APP_ICONS = [{
         "src": "/static/images/icons/windows11/Square44x44Logo.altform-lightunplated_targetsize-256.png",
         "sizes": "256x256"
     }, {
-        "src": "/static/images/icons/android-launchericon-512-512.png",
+        "src": "/static/images/icons/android/android-launchericon-512-512.png",
         "sizes": "512x512"
     }, {
-        "src": "/static/images/icons/android-launchericon-192-192.png",
+        "src": "/static/images/icons/android/android-launchericon-192-192.png",
         "sizes": "192x192"
     }, {
-        "src": "/static/images/icons/android-launchericon-144-144.png",
+        "src": "/static/images/icons/android/android-launchericon-144-144.png",
         "sizes": "144x144"
     }, {
-        "src": "/static/images/icons/android-launchericon-96-96.png",
+        "src": "/static/images/icons/android/android-launchericon-96-96.png",
         "sizes": "96x96"
     }, {
-        "src": "/static/images/icons/android-launchericon-72-72.png",
+        "src": "/static/images/icons/android/android-launchericon-72-72.png",
         "sizes": "72x72"
     }, {
-        "src": "/static/images/icons/android-launchericon-48-48.png",
+        "src": "/static/images/icons/android/android-launchericon-48-48.png",
         "sizes": "48x48"
-    }
-  ]
-PWA_APP_ICONS_APPLE = [{
+    }, {
         "src": "/static/images/icons/ios/16.png",
         "sizes": "16x16"
     }, {
