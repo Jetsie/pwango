@@ -132,12 +132,13 @@ USE_TZ = True
 
 
 PWA_APP_NAME = 'BoxProx PWA'
+PWA_SHORT_NAME = 'BoxProx'
+PWA_APP_DESCRIPTION = 'A proxy box PWA.'
 PWA_APP_THEME_COLOR = '#8E05C2'
 PWA_APP_BACKGROUND_COLOR = '#000000'
 PWA_APP_DISPLAY = 'standalone'
 PWA_APP_ORIENTATION = 'portrait'
-PWA_APP_ICONS = [
-    {
+PWA_APP_ICONS = [{
         "src": "/static/images/icons/windows11/SmallTile.scale-100.png",
         "sizes": "71x71"
     }, {
@@ -395,7 +396,9 @@ PWA_APP_ICONS = [
     }, {
         "src": "/static/images/icons/android-launchericon-48-48.png",
         "sizes": "48x48"
-    }, {
+    }
+  ]
+PWA_APP_ICONS_APPLE = [{
         "src": "/static/images/icons/ios/16.png",
         "sizes": "16x16"
     }, {
