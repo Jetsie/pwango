@@ -141,6 +141,12 @@ PWA_APP_ORIENTATION = 'any'
 PWA_APP_STATUS_BAR_COLOR = 'default'
 PWA_APP_DIR = 'ltr'
 PWA_APP_LANG = 'en-US'
+PWA_APP_SPLASH_SCREEN = [
+    {
+        'src': '/static/images/icons/android/android-launchericon-512-512.png',
+        'media': '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)'
+    }
+]
 PWA_APP_ICONS = [{
         "src": "/static/images/icons/windows11/SmallTile.scale-100.png",
         "sizes": "71x71"
